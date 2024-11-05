@@ -1,0 +1,5 @@
+This repository contains an FPGA-based stopwatch designed by Aaron Phan and Aneri Patel for ECE 316: Digital Logic Design at the University of Texas at Austin, taught by Dr. Jaydeep Kulkarni.
+
+The stopwatch, implemented in Verilog and running on a Basys3 board, utilizes the on-board clock to measure elapsed time and display it on the 7-segment display. The design divides the clock signal to create time increments (e.g., seconds or milliseconds) and uses finite state machines (FSMs) to control start, stop, and reset functionalities. Switches or push-buttons on the Basys3 board are used to control these functions, allowing the user to start or pause the stopwatch and reset it back to zero. 
+
+This code is not to be used in any manner consistent with cheating, plagiarism, or other form of uncredited usage. For any questions related to implementation or usage, please contact me at atp2323@utexas.edu. This code is meant to be used for portfolio demonstration purposes with potential employers.
